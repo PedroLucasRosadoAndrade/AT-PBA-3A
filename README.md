@@ -1,4 +1,16 @@
-# Projeto do primeiro bimestre
+# Projeto: Filmes e Series
 
+# Integrantes: 
 
-> Status do projeto: Em desenvolvimento pelos alunos do IFRO
+> Ana Clara Santana da Silva
+
+> Barbara Iaguita Oliveira Vieira
+
+> Pedro Lucas Rosado Andrade
+
+> Páginas obrigatórias 
+
+* Home 
+* Quem somos 
+* instrumentos 
+* 
