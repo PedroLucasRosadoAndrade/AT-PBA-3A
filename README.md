@@ -8,9 +8,11 @@
 
 > Pedro Lucas Rosado Andrade
 
-> Páginas obrigatórias 
+# Páginas obrigatórias 
 
 * Home 
 * Quem somos 
-* instrumentos 
-* 
+* Filmes
+* Series
+* Contato
+* Localização
