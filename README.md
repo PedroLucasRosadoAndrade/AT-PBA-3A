@@ -4,7 +4,7 @@
 
 * Ana Clara Santana da Silva
 
-* Barbara Iaguita Oliveira Vieira
+* Bárbara Iáguita Oliveira Vieira
 
 * Pedro Lucas Rosado Andrade
 
