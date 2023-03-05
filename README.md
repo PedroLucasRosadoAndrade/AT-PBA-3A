@@ -2,11 +2,11 @@
 
 # Integrantes: 
 
-> Ana Clara Santana da Silva
+* Ana Clara Santana da Silva
 
-> Barbara Iaguita Oliveira Vieira
+* Barbara Iaguita Oliveira Vieira
 
-> Pedro Lucas Rosado Andrade
+* Pedro Lucas Rosado Andrade
 
 # Páginas obrigatórias 
 
