@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Animes Recomendados</h1>
+        <p>Os Melhores</p>
+    </header>
+    
+    <nav class="topnav">
+        <a href="Home.html">Home</a>
+        <a href="QuemSomos.html">Quem somos</a>
+        <a href="Filmes.html">Filmes</a>
+        <a href="Series.html">Séries</a>
+        <a href="#">Contato</a>
+        <a href="Localizacao.html" style="float: right;">Localização</a>
+    </nav>
+
+    <div class="row">
+        <form action="https://api.staticforms.xyz/submit" method="post" class="card">
+        <input type="hidden" name="accessKey" value="08db276b-c9ef-449c-9e6e-e38296bbfc42">
+        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/contato.html#">
+        <label for="inputNome">Primeiro Nome:</label>
+        <input type="text" id="inputNome" name="name" required maxlength="26" ninlength="2">
+        <span></span>
+
+        <label for="inputEmail">Endereço de E-mail</label>
+        <input type="email" id="inputEmail" name="email" required maxlength="50">
+        <span></span>
+
+        <label for="textAreaMensagem">Mensagem</label>
+        <textarea name="message" id="textAreaMensagem" required maxlength="100"></textarea>
+        <span></span>
+
+        <button>Enviar Mensagem</button>
+        </form>
+
+    </div>
+    <footer class="footer">
+            <dl>
+                <dt>E-mail</dt>
+                 <dd>email@gmail.com</dd>
+                 <br/>
+                <dt>Telefone</dt>
+                <dd>(69) 9 9999-9999</dd>
+            </dl>
+        
+            <p class="p">Pedro Lucas</p>
+           
+    </footer>
+</body>
+</html>
