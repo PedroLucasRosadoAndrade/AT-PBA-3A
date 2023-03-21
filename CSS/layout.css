@@ -2,9 +2,10 @@
     box-sizing: border-box;/*modifica a maneira de exibir o tamanho de uma caixa. define comoas dimensoes de um elemento são calculadas: devem incluir preenchimento das bordas ou não*/
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
     background-color: black;
-}
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;}
+    
 /*body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
