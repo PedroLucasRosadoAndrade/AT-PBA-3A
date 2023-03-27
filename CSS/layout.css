@@ -159,3 +159,32 @@ p{
         padding: 0%;
     }
 }
+
+.footer {
+    padding: 20px;
+    text-align: left;
+}
+.p {
+    text-align: right;
+}
+
+footer dt{
+    font-weight: bold;
+}
+
+footer dd{
+    margin-left: 0;
+}
+
+footer p{
+    text-align: right;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #ccc;
+    margin-top: 20px;
+}
