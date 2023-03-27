@@ -61,14 +61,14 @@ input:valid + span::before, textarea:valid + span::before {
 
 input + span::before {
     position:absolute; 
-    left: 590px;
+    left: 640px;
     top: -30px;
 
 }
 
 textarea + span::before {
     position:absolute;
-    left: 590px;
+    left: 640px;
     top: -60px;
 
 }

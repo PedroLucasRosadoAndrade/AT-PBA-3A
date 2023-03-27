@@ -166,6 +166,7 @@ p{
 }
 .p {
     text-align: right;
+    color: #000;
 }
 
 footer dt{
@@ -174,6 +175,7 @@ footer dt{
 
 footer dd{
     margin-left: 0;
+
 }
 
 footer p{
@@ -187,4 +189,8 @@ footer p{
     text-align: center;
     background-color: #ccc;
     margin-top: 20px;
+}
+
+footer dl{
+    text-align: left;
 }
