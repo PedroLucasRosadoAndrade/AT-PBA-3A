@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,55 +9,78 @@
     <link rel="stylesheet" href="css/Contato.css">
     <title>Document</title>
 </head>
+
 <body>
-    <header>
-        <div class="cabecalho">
-        <!--<h1> Filmes em alta </h1>-->
-        <div class="logo">
-        <a href="Home.html"> <img src="Imagens/LogoDivFilm.png"/> </a>
-        </div> <!--logo-->
-        <div class="menu">
-        <a href="Home.html"> Home </a>
-        <a href="#"> Filmes </a>
-        <a href="#"> Series</a>
-        <a href="QuemSomos.html"> Quem somos </a>
-        <a href="Contato.html"> Contato</a>
-        <a href="Localizacao.html" style="float:right"> Localização <a>
-        </div> <!--div menu-->
-        </div> <!--div cabecalho-->
+   <!-- <header>
+         <div class="cabecalho"> -->
+            <!--<h1> Filmes em alta </h1>-->
+            <!-- <div class="logo"> -->
+                <!-- <a href="Home.html"> <img src="Imagens/LogoDivFilm.png" /> </a> -->
+            <!-- </div> logo -->
+            <!--<div class="menu">
+                <a href="Home.html"> Home </a>
+                <a href="filmes.html"> Filmes </a>
+                <a href="series.html"> Series</a>
+                <a href="QuemSomos.html"> Quem somos </a>
+                <a href="#"> Contato</a>
+                <a href="Localizacao.html" style="float:right"> Localização <a>
+            </div> div menu-->
+        <!--</div> div cabecalho-->
+    <!-- </header> -->
+
+    <header class="cabecalho">
+        <nav>
+            <div class="logo">
+            <a href="Home.html"> <img src="Imagens/LogoDivFilm.png" alt=""/> </a>
+            </div> <!--logo-->
+            <div class="menu">
+            <a href="Home.html"> Home </a>
+            <a href="#"> Filmes </a>
+            <a href="Series.html"> Series</a>
+            <a href="QuemSomos.html"> Quem somos </a>
+            <a href="Contato.html"> Contato</a>
+            <a href="Localizacao.html" style="float:right"> Localização <a>
+            </div> <!--div menu-->
+            <div class="search_user">
+                <input type="text" placeholder="Buscar..." id="search_input">
+                <img src="" alt="">
+            </div>
+        </nav>
     </header>
+
     <div class="row">
         <form action="https://api.staticforms.xyz/submit" method="post" class="card">
-        <input type="hidden" name="accessKey" value="08db276b-c9ef-449c-9e6e-e38296bbfc42">
-        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/contato.html#">
-        <label for="inputNome">Primeiro Nome:</label>
-        <input type="text" id="inputNome" name="name" required maxlength="26" ninlength="2">
-        <span></span>
+            <input type="hidden" name="accessKey" value="08db276b-c9ef-449c-9e6e-e38296bbfc42">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/contato.html#">
+            <label for="inputNome">Primeiro Nome:</label>
+            <input type="text" id="inputNome" name="name" required maxlength="26" ninlength="2">
+            <span></span>
 
-        <label for="inputEmail">Endereço de E-mail</label>
-        <input type="email" id="inputEmail" name="email" required maxlength="50">
-        <span></span>
+            <label for="inputEmail">Endereço de E-mail</label>
+            <input type="email" id="inputEmail" name="email" required maxlength="50">
+            <span></span>
 
-        <label for="textAreaMensagem">Mensagem</label>
-        <textarea name="message i" id="textAreaMensagem" required maxlength="100"></textarea>
-        <span></span>
+            <label for="textAreaMensagem">Mensagem</label>
+            <textarea name="message i" id="textAreaMensagem" required maxlength="100"></textarea>
+            <span></span>
 
-        <button>Enviar Mensagem</button>
+            <button>Enviar Mensagem</button>
         </form>
 
     </div>
     <footer class="footer">
-            <dl>
-                <dt>E-mail</dt>
-                 <dd>pbnproduções@gmail.com</dd>
-                 <br/>
-                <dt>Telefone</dt>
-                <dd>(69) 9 9999-9999</dd> 
-                
-            </dl>
-        
-             <p class="p">PBN produções</p> 
-            
+        <dl>
+            <dt>E-mail</dt>
+            <dd>pbnproduções@gmail.com</dd>
+            <br />
+            <dt>Telefone</dt>
+            <dd>(69) 9 9999-9999</dd>
+
+        </dl>
+
+        <p class="p">PBN produções</p>
+
     </footer>
 </body>
+
 </html>
