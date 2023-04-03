@@ -29,9 +29,11 @@
     position: sticky;
     top : 20px;
 }
-div.menu{
+.menu{
     position: sticky;
     top: 5px;
+    background-color: #1279b5;
+    width: 100%;
 }
 
 /* 
