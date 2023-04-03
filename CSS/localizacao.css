@@ -29,6 +29,11 @@
     position: sticky;
     top : 20px;
 }
+div.menu{
+    position: sticky;
+    top: 5px;
+}
+
 /* 
 iframe {
     position: fixed;
