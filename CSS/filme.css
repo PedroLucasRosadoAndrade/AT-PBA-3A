@@ -6,17 +6,13 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
+    /*padding: 1px;*/
     /*background-color: antiquewhite;*/
     /*background-image: url("../images/cinema.jpg");*/
     /*background-repeat: no-repeat;*/
     background-size: 100%;
 }
 
-cabecalho{
-    position: sticky;
-    top : 20px;
-}
 
 .colEsq{
     float:left ;
@@ -41,11 +37,13 @@ cabecalho{
     padding: 20px;
     margin-top: 20px;
 }*/
+    
 
 .principal:after {
     content: "";
     display:table;
     clear:both;
+    
 }
 
 .topnav a {
