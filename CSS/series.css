@@ -1,37 +1,49 @@
 
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
-    /*background-color: antiquewhite;*/
-    /*background-image: url("../images/cinema.jpg");*/
-    /*background-repeat: no-repeat;*/
-    background-size: 100%;
-}
-
 cabecalho{
     position: sticky;
     top : 20px;
 }
 
-.colEsq{
-    float:left ;
-    width:75%;
-}
-
-.colDir{
-    float: left;
-    width: 25%;
-    background-color: cadetblue;
-    padding-left: 20px;
-}
-
-
 .imagens{
     /*background-color: rgb(25, 26, 25);*/
-    width: 100%;
-    padding: 0px;
-    display: inline-block;
+    max-width: 100%;
+    display:block;
+}
+
+h1{
+    text-align: center;
+    color:aliceblue;
+    margin-top:100px;
+}
+
+h2{
+    text-align: center;
+    color:aliceblue;
+    margin-top:100px;
+}
+
+
+h3{
+    text-align: center;
+    color:aliceblue;
+    margin-top:100px;
+
+}
+
+
+
+/*flexbox*/
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex > div{
+    flex:1 1 200px;
+    margin: 10px;
 }
 div{
     display: inline-block;
@@ -44,22 +56,22 @@ div{
     margin-top: 20px;
 }*/
 
-.principal:after {
+/*.principal:after {
     content: "";
     display:table;
     clear:both;
-}
+}*/
 
-.topnav a {
+/*.topnav a {
     float: left;
     display: block;
     color: rgb(6, 8, 8);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+}*/
 
-@media screen and(max-widht:800px) {
+/*@media screen and(max-widht:800px) {
     .colEsq,
     .colDir {
     width: 100px;
@@ -72,6 +84,6 @@ div{
         float: none;
         width: 100%;
     }
-}
+}*/
 
 
