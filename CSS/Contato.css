@@ -7,6 +7,7 @@
     border-bottom: white solid 2px;
 }
 
+
 form {
     width: 50%;
     margin: 0 auto;
@@ -80,6 +81,12 @@ textarea + span::before {
     left: 640px;
     top: -60px;
 
+}
+
+footer{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 @media screen and (max-width: 768px) {
