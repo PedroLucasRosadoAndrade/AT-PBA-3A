@@ -24,11 +24,12 @@
     height: 100%;
     
 }
-.menu{
+/* header{
     position: sticky;
-    width: 10px;
+    top: 5px;
     background-color: black;
-}
+    
+} */
 
 /* 
 iframe {
