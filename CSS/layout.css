@@ -45,7 +45,6 @@ header::after {
 
 }
 
-
 header nav {
     width: 100%;
     height: 10%;
@@ -152,11 +151,20 @@ h4 {
 }
 
 h3 {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 p {
     color: azure;
+}
+
+.videoAvatar iframe{
+    display: block;
+    margin-top: 10px;
+    border-radius: 3%;
+    flex-wrap: wrap;
+    height: 400px;
+    margin-right: 90px;
 }
 
 @media screen and (max-wdth: 800px) {
@@ -219,4 +227,68 @@ footer p {
 
 footer dl {
     text-align: left;
+}
+/*grid*/
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+}
+.grid >div{
+    margin-top: -900;
+
+}
+.AvatarSinop{
+    color: azure;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 50px;
+    flex-wrap: wrap;
+}
+.ElencoAvatar{
+    color: azure;
+    margin-top: -130px;
+    margin-right: 10px;
+    margin-left: 700px;
+    flex-wrap: wrap;
+
+}
+/*flex*/
+.flex{
+    display:flex;/*deixa as imagens no eixo  X*/
+    flex-wrap: wrap;
+    margin: 0 auto  ;
+}
+.p{
+    text-align: center;
+    flex-wrap: wrap;
+    margin-left: 50px;
+
+}
+.h{
+text-decoration: none;
+margin-right: 3%;
+flex-wrap: wrap;
+color: #fff;
+margin-left: 60px;
+
+}
+.flex >div{
+    flex: 1 1 250px;
+    margin: 11px;
+    flex-wrap: wrap;
+}
+.flex img{
+    border-radius: 12px;
+    margin-left: 90px;
+    width: 280px;
+}
+.flex h2{
+    text-align: center;
+}
+h1{
+    color: #fff;
+    text-align: center;
+    margin: 100px;
 }
