@@ -79,15 +79,9 @@ header nav .menu a {
     padding: 3px;
 }
 
-header nav .logo {
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    width: 150px;
-
+.logo{
+    width: 450px;
 }
-
 header {
     display: block;
     padding-top: 0px;
@@ -116,12 +110,6 @@ header nav .search_user input::placeholder {
     color: #fff;
 }
 
-.logo {
-    width: 12%;
-    text-align: left;
-    padding-top: 1%;
-}
-
 .menu {
     padding-top: 3%;
     width: 50%;
@@ -140,27 +128,21 @@ header nav .search_user input::placeholder {
     text-align: center;
 }
 
+.colEsq {
+    float: left;
+    width: 75%;
+    padding-top: 20px;
+    
+}
 .Filme1{
-    margin-top: -105px;
+    margin-top: -1px;
     margin-left: 30px;
 }
 
 .h2Filme2 {
     color: rgb(255, 255, 255);
 }
-.Filme2{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-}
-.Filme2 >div{
- flex:1 1 250px;
- margin: 11px;
- flex-wrap: wrap;
-}
-.txts{
-    flex-wrap: wrap;
-}
+
 h2 {
     color: azure;
 }
