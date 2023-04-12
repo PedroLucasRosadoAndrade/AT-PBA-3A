@@ -45,7 +45,6 @@ header::after {
 
 }
 
-
 header nav {
     width: 100%;
     height: 10%;
@@ -79,15 +78,9 @@ header nav .menu a {
     padding: 3px;
 }
 
-header nav .logo {
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    width: 150px;
-
+.logo{
+    width: 450px;
 }
-
 header {
     display: block;
     padding-top: 0px;
@@ -116,12 +109,6 @@ header nav .search_user input::placeholder {
     color: #fff;
 }
 
-.logo {
-    width: 12%;
-    text-align: left;
-    padding-top: 1%;
-}
-
 .menu {
     padding-top: 3%;
     width: 50%;
@@ -140,27 +127,21 @@ header nav .search_user input::placeholder {
     text-align: center;
 }
 
+.colEsq {
+    float: left;
+    width: 75%;
+    padding-top: 20px;
+    
+}
 .Filme1{
-    margin-top: -105px;
+    margin-top: -1px;
     margin-left: 30px;
 }
 
 .h2Filme2 {
     color: rgb(255, 255, 255);
 }
-.Filme2{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-}
-.Filme2 >div{
- flex:1 1 250px;
- margin: 11px;
- flex-wrap: wrap;
-}
-.txts{
-    flex-wrap: wrap;
-}
+
 h2 {
     color: azure;
 }
@@ -170,11 +151,20 @@ h4 {
 }
 
 h3 {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 p {
     color: azure;
+}
+
+.videoAvatar iframe{
+    display: block;
+    margin-top: 10px;
+    border-radius: 3%;
+    flex-wrap: wrap;
+    height: 400px;
+    margin-right: 90px;
 }
 
 @media screen and (max-wdth: 800px) {
@@ -202,7 +192,16 @@ p {
     text-align: right;
     color: #000;
 }
-
+#link-topo {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(40, 37, 38);
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 3px 3px 10px #333;
+}
 footer dt {
     font-weight: bold;
 }
@@ -228,4 +227,68 @@ footer p {
 
 footer dl {
     text-align: left;
+}
+/*grid*/
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+}
+.grid >div{
+    margin-top: -900;
+
+}
+.AvatarSinop{
+    color: azure;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 50px;
+    flex-wrap: wrap;
+}
+.ElencoAvatar{
+    color: azure;
+    margin-top: -130px;
+    margin-right: 10px;
+    margin-left: 700px;
+    flex-wrap: wrap;
+
+}
+/*flex*/
+.flex{
+    display:flex;/*deixa as imagens no eixo  X*/
+    flex-wrap: wrap;
+    margin: 0 auto  ;
+}
+.p{
+    text-align: center;
+    flex-wrap: wrap;
+    margin-left: 50px;
+
+}
+.h{
+text-decoration: none;
+margin-right: 3%;
+flex-wrap: wrap;
+color: #fff;
+margin-left: 60px;
+
+}
+.flex >div{
+    flex: 1 1 250px;
+    margin: 11px;
+    flex-wrap: wrap;
+}
+.flex img{
+    border-radius: 12px;
+    margin-left: 90px;
+    width: 280px;
+}
+.flex h2{
+    text-align: center;
+}
+h1{
+    color: #fff;
+    text-align: center;
+    margin: 100px;
 }
