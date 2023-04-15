@@ -1,17 +1,6 @@
 
 
-.card{
-    background-color: rgb(121, 146, 129);
-    padding: 20px;
-    margin-top: 20px;
-}
-cabecalho{
-    position: sticky;
-    top : 20px;
-}
-
 .imagens{
-    /*background-color: rgb(25, 26, 25);*/
     max-width: 100%;
     display:block;
 }
