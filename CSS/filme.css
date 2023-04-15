@@ -9,6 +9,11 @@ cabecalho{
     display:block;
 }
 
+.videoFilme{
+    max-width: 100%;
+    display:block;
+}
+
 h1{
     text-align: center;
     color:rgb(246, 253, 253);
@@ -19,6 +24,17 @@ h2{
     text-align: center;
     color:rgb(242, 248, 248);
 }
+
+
+/*.videoAvatar iframe{
+    display: block;
+    margin-top: 10px;
+    border-radius: 3%;
+    flex-wrap: wrap;
+    height: 400px;
+    margin-right: 90px;
+}
+
 
 
 
