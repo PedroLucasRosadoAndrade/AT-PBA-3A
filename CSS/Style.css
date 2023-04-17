@@ -163,7 +163,7 @@ header nav .search_user input::placeholder {
     right: 10px;
     bottom: 10px;
     box-shadow: 3px 3px 10px #302a2a;
-    border-radius: 9px;
+    border-radius: 9px; 
 }
 
 /* main ::after{
