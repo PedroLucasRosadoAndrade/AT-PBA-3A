@@ -64,11 +64,13 @@ input:invalid + span::before, textarea:invalid + span::before {
     color:red;
 }
 
+/* quando ele for valido ele vai ficar com esse sinal  */
 input:valid + span::before, textarea:valid + span::before {
     content: '✓';
     color:green;
 }
 
+/* aqui é para posicionar os elemento de X e V */
 input + span::before {
     position:absolute; 
     left: 640px;
@@ -76,6 +78,7 @@ input + span::before {
 
 }
 
+/* aqui tambem é para posicionar os elemento de X e V só que é do componente mensagem pois ele é textarea*/
 textarea + span::before {
     position:absolute;
     left: 640px;
