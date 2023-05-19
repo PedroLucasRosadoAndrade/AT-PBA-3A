@@ -1,40 +1,48 @@
 /*flex*/
-.flex{
-    display:flex;/*deixa as imagens no eixo  X*/
+.flex {
+    display: flex;
+    /*deixa as imagens no eixo  X*/
     flex-wrap: wrap;
-    margin: 0 auto  ;
+    margin: 0 auto;
 }
-.p{
+
+.p {
     text-align: center;
     flex-wrap: wrap;
     margin-left: 50px;
 
 }
-.h{
-text-decoration: none;
-margin-right: 3%;
-flex-wrap: wrap;
-color: #fff;
-margin-left: 60px;
+
+.h {
+    text-decoration: none;
+    margin-right: 3%;
+    flex-wrap: wrap;
+    color: #fff;
+    margin-left: 60px;
 
 }
-.flex >div{
+
+.flex>div {
     flex: 1 1 250px;
     margin: 90px;
     flex-wrap: wrap;
 }
-.flex img{
+
+.flex img {
     border-radius: 12px;
     margin-left: 60px;
 }
-.flex h2{
+
+.flex h2 {
     text-align: center;
 }
-h1{
+
+h1 {
     color: #fff;
     text-align: center;
     margin: 100px;
 }
-.pp{
+
+.pp {
     margin: 400px;
 }
