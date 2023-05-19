@@ -16,3 +16,12 @@
 * Series
 * Contato
 * Localização
+
+# Formulários
+
+* filme barbara
+* patrocinador ana
+* fornecedor  pedro
+* cadasstro de usuario ana
+* series barbara 
+* funcionario pedro
